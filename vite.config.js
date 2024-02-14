@@ -3,10 +3,7 @@ import eslint from 'vite-plugin-eslint';
 import stylelint from 'vite-plugin-stylelint';
 import autoprefixer from "autoprefixer";
 
-const path = require('path');
-
 export default defineConfig({
-    root: path.resolve(__dirname, 'src'),
     build: {
         outDir: '../dist'
     },
