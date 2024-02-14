@@ -1,0 +1,24 @@
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1320px
+);
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1170px,
+        xxl: 1400px
+);
+
+$main: #76B926;
+$main-dark: #6EB744;
+$main-darken: #62A53C;
+$text-color: #37454A;
+$text-color-60: #37454A60;
+$background: #f4f4f4;
+$border-color: #dfdfdf;

@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="тестовое">
+    <meta name="keywords" content="HTML, CSS, JavaScript, vite, bootstrap5">
+    <title>тестовое задание для USPIO</title>
+    <script type="module" src="src/js/main.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__content row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 text-center text-sm-start">
+                <picture type="img/png" class="header__logo">
+                    <img src="/img/logo.png" alt="">
+                </picture>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="header__block">
+                    <p>Текст Текст</p>
+                    <div class="header__geo">
+                        <p class="header__geo-text"><span class="highlight">Тексттт (10)</span></p>
+                        <p class="header__geo-text">текст (10)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="header__banner">
+                    <div class="header__button">
+                        <div class="header__letters">
+                            <p class="header__letters-text highlight"><span>Ш Б</span> н м к</p>
+                        </div>
+                        <div class="header__banner-text" data-bs-toggle="modal" data-bs-target="#popup">Запишитесь на
+                            проверку
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="header__info">
+                    <div class="header__phone">
+                        <a href="tel:88001111111" class="header__tel">+7 (800) 111-111-1</a>
+                        <p class="header__call" data-bs-toggle="modal" data-bs-target="#callback">Перезвоните мне</p>
+                    </div>
+                    <div class="header__action">
+                        <div class="header__favourites">
+                            <img src="public/icons/heart.svg" alt="избранное" title="избранное">
+                            <span class="header__circle">7</span>
+                        </div>
+                        <div class="header__cart">
+                            <img src="public/icons/cart.svg" alt="корзина" title="корзина">
+                            <span class="header__circle">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="nav container-fluid">
+    <div class="container">
+        <div class="burger" data-bs-toggle="modal" data-bs-target="#mobileMenu">
+            <div class="burger__icon">
+                <div class="burger__bar"></div>
+                <div class="burger__bar"></div>
+                <div class="burger__bar"></div>
+            </div>
+        </div>
+        <div class="nav__content">
+            <a href="" class="nav__link">Текст текст</a>
+            <a href="" class="nav__link">Текст текст текст</a>
+            <a href="" class="nav__link">Текст текст</a>
+            <a href="" class="nav__link">Текст текст</a>
+            <a href="" class="nav__link">Текст текст</a>
+            <a href="" class="nav__link">Текст и текст</a>
+        </div>
+    </div>
+    <div class="nav__search">
+        <label for="search" class="visually-hidden">Поиск</label>
+        <input type="text" class="nav__input" id="search" aria-labelledby="search">
+    </div>
+</nav>
+<section class="banner container-fluid">
+    <div class="container">
+        <div class="banner__content row">
+            <div class="col-lg-6 col-xl-8">
+                <div class="banner__block">
+                    <div class="breadcrumbs">
+                        <a class="breadcrumbs__link breadcrumbs__link-home" href=""></a>
+                        <a class="breadcrumbs__link" href="">Текст текст</a>
+                    </div>
+                    <h1 class="banner__title">Заголовок текст <span class="highlight">текст текст</span> текст
+                        текст текст</h1>
+                    <p class="banner__text">текст текст, текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                        текст текст текст текст текст текст текст.</p>
+                    <p class="banner__text banner__text-italic">Текст – текст текст текст текст текст , текст текст
+                        текст текст текст текст текст текст текст текст текст текст текст текст текст текст.</p>
+                    <button type="button" class="banner__button btn-outline-primary" data-bs-toggle="modal"
+                            data-bs-target="#popup">Записаться на проверку
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-4">
+                <picture type="img/jpg" class="banner__img">
+                    <img src="/img/woman.jpeg" class="js_img" title="девушка доктор" alt="девушка доктор">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="advantages">
+    <div class="container">
+        <h2 class="advantages__title title text-center">Заголовок заголовок заголовок</h2>
+        <div class="advantages__content row row-cols-3">
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                <article class="advantages__item">
+                    <div class="advantages__circle">
+                        <img src="/icons/icon_1.svg" alt="">
+                    </div>
+                    <p class="advantages__text text-center">Текст <span class="highlight">Текст Текст</span> Текст
+                        Текст Текст
+                        Текст Текст</p>
+                </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                <article class="advantages__item">
+                    <div class="advantages__circle">
+                        <img src="/icons/icon_2.svg" alt="">
+                    </div>
+                    <p class="advantages__text text-center">Текст Текст Текст Текст Текст
+                        Текст Текст
+                        Текст Текст Текст </p>
+                </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                <article class="advantages__item">
+                    <div class="advantages__circle">
+                        <img src="/icons/icon_3.svg" alt="">
+                    </div>
+                    <p class="advantages__text text-center">Текст Текст Текст Текст </p>
+                </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                <article class="advantages__item">
+                    <div class="advantages__circle">
+                        <img src="/icons/icon_4.svg" alt="">
+                    </div>
+                    <p class="advantages__text text-center">Текст Текст Текст Текст
+                        Текст Текст
+                        Текст Текст</p>
+                </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                <article class="advantages__item">
+                    <div class="advantages__circle">
+                        <img src="/icons/icon_5.svg" alt="">
+                    </div>
+                    <p class="advantages__text text-center"><span class="highlight">Текст Текст Текст</span>,
+                        Текст Текст Текст Текст
+                        Текст Текст</p>
+                </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                <article class="advantages__item">
+                    <div class="advantages__circle">
+                        <img src="/icons/icon_6.svg" alt="">
+                    </div>
+                    <p class="advantages__text text-center">Текст
+                        Текст  Текст  Текст
+                        Текст  Текст </p>
+                </article>
+            </div>
+        </div>
+        <div class="advantages__bottom">
+            <button class="btn big-button" data-bs-toggle="modal" data-bs-target="#popup">Записаться на проверку
+            </button>
+        </div>
+    </div>
+</section>
+<section class="info">
+    <div class="container">
+        <div class="info__content row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+                <h2 class="info__title title">Текст текст:</h2>
+                <ul class="info__list">
+                    <li>текст текст</li>
+                    <li>текст текст текст текст</li>
+                    <li>текст</li>
+                    <li>текст текст текст текст текст текст текст текст текст текст текст текст</li>
+                    <li>текст текст текст текст текст текст текст текст текст текст</li>
+                    <li>текст текст текст текст текст текст текст текст текст текст текст текст текст текст</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-end justify-content-sm-start">
+                <div class="info__column">
+                    <picture type="img/jpg">
+                        <img src="/img/img_1.jpeg" class="js_img" alt="проверка зрения" title="проверка зрения">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="slider container-fluid">
+    <div class="container">
+        <div class="slider__content">
+            <h2 class="slider__title title">Заголовок</h2>
+            <div class="slider__body swiper js_slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider__item">
+                        <picture type="img/png" class="slider__img">
+                            <img src="/img/img_slider_1.png" class="js_img" loading="lazy" alt="картинка слайдера"
+                                 title="картинка слайдера">
+                        </picture>
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <div class="slider__info">
+                            <h4 class="slider__title">Вопрос вопрос вопрос?</h4>
+                            <p class="slider__text">Текст Текст Текст Текст Текст Текст</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <picture type="img/png" class="slider__img">
+                            <img src="/img/img_slider_2.png" class="js_img" loading="lazy" alt="картинка слайдера"
+                                 title="картинка слайдера">
+                        </picture>
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <div class="slider__info">
+                            <h4 class="slider__title">Вопрос вопрос вопрос?</h4>
+                            <p class="slider__text">Текст Текст Текст Текст Текст Текст</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <picture type="img/png" class="slider__img">
+                            <img src="/img/img_slider_3.png" class="js_img" loading="lazy" alt="картинка слайдера"
+                                 title="картинка слайдера">
+                        </picture>
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <div class="slider__info">
+                            <h4 class="slider__title">Вопрос вопрос вопрос?</h4>
+                            <p class="slider__text">Текст Текст Текст Текст Текст Текст</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <picture type="img/png" class="slider__img">
+                            <img src="/img/img_slider_2.png" class="js_img" loading="lazy" alt="картинка слайдера"
+                                 title="картинка слайдера">
+                        </picture>
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <div class="slider__info">
+                            <h4 class="slider__title">Вопрос вопрос вопрос?</h4>
+                            <p class="slider__text">Текст Текст Текст Текст Текст Текст</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <picture type="img/png" class="slider__img">
+                            <img src="/img/img_slider_3.png" class="js_img" loading="lazy" alt="картинка слайдера"
+                                 title="картинка слайдера">
+                        </picture>
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <div class="slider__info">
+                            <h4 class="slider__title">Вопрос вопрос вопрос?</h4>
+                            <p class="slider__text">Текст Текст Текст Текст Текст Текст</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="slider__subtext">*текст текст текст текст текст текст текст текст текст текст текст текст текст
+                текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                текст.</p>
+        </div>
+    </div>
+</section>
+<section class="questions">
+    <div class="container">
+        <div class="questions__content row">
+            <div class="col-12 col-md-12 col-lg-8">
+                <div class="questions__block">
+                    <h3 class="questions__title title">Вопрос вопрос вопрос вопрос вопрос вопрос вопрос?</h3>
+                    <ol>
+                        <li>Текст Текст Текст Текст Текст Текст</li>
+                        <li>Текст Текст Текст Текст Текст Текст</li>
+                        <li>Текст Текст Текст Текст Текст Текст</li>
+                        <li>Текст Текст Текст Текст Текст Текст</li>
+                        <li>Текст Текст Текст Текст Текст Текст</li>
+                    </ol>
+                    <p class="questions__text">Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст
+                        Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст
+                        Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст
+                        Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст
+                        Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 d-flex p-0 justify-content-end">
+                <div class="questions__column">
+                    <picture type="img/jpg" class="questions__img">
+                        <img src="/img/img_5.jpeg" class="js_img" alt="проверка зрения" title="проверка зрения">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <div class="questions__bottom">
+            <button class="btn big-button" data-bs-toggle="modal" data-bs-target="#popup">Записаться на проверку
+            </button>
+        </div>
+    </div>
+</section>
+<section class="social container-fluid">
+    <div class="container">
+        <div class="social__content row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <p class="social__text">Текст текст текст текст текст текст текст </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-5">
+                <form class="social__form justify-content-center" action="">
+                    <input class="social__input js_email" type="text" aria-labelledby="email" placeholder="Введите свой e-mail">
+                    <button class="social__button btn js_subscribe">Подписаться</button>
+                </form>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="social__block">
+                    <p class="social__block-text d-flex align-items-center">МЫ В СОЦ. СЕТЯХ:</p>
+                    <a href="" class="social__link" target="_blank">
+                        <img src="/icons/vk.svg" alt="vkontakte" title="vkontakte">
+                    </a>
+                    <a href="" class="social__link" target="_blank">
+                        <img src="/icons/fb.svg" alt="facebook" title="facebook">
+                    </a>
+                    <a href="" class="social__link" target="_blank">
+                        <img src="/icons/instagram.svg" alt="instagram" title="instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer container-fluid">
+    <div class="container">
+        <div class="footer__content row">
+            <div class="col-sm-12 col-md-6 col-lg-3 footer__column">
+                <picture>
+                    <img src="/img/logo.png" alt="лого" title="лого">
+                </picture>
+                <a href="tel:88001111111" class="footer__social footer__social-phone">+7 (800) 111-111-1</a>
+                <a href="mailto:info@vimeo.ru" class="footer__social footer__social-email">info@vimeo.ru</a>
+                <a href="" class="footer__social footer__social-ask">Задать вопрос</a>
+                <a href="" class="footer__social footer__social-feedback">Оставить отзыв</a>
+                <div class="footer__subtext">
+                    <p>текст текст текст текст текст текст текст текст текст текст текст текст текст </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg">
+                <div class="footer__menu">
+                    <p class="footer__title">Заголовок</p>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название Название</a>
+                    <a href="" class="footer__link">Название Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название Название</a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg">
+                <div class="footer__menu">
+                    <p class="footer__title">Заголовок</p>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название Название</a>
+                    <a href="" class="footer__link">Название Название</a>
+                    <a href="" class="footer__link">Название Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название Название</a>
+                    <a href="" class="footer__link">Название</a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg">
+                <div class="footer__menu">
+                    <p class="footer__title">Заголовок</p>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название Название</a>
+                    <a href="" class="footer__link">Название</a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg">
+                <div class="footer__menu">
+                    <p class="footer__title">Заголовок</p>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                    <a href="" class="footer__link">Название</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<section class="bottom container-fluid">
+    <div class="container">
+        <div class="bottom__copyright row">
+            <a href="" class="bottom__link">Политика конфиденциальности</a>
+            <p class="bottom__text">© Все права защищены авторским правом</p>
+        </div>
+    </div>
+</section>
+
+<div class="popup modal fade" id="popup" tabindex="-1" aria-labelledby="popupForm" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="popup__content modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title fs-5 title popup__title" id="popupForm">Запишитесь на проверку
+                    зрения</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Почта</label>
+                        <input type="email" required class="popup__input form-control" id="email"
+                               aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Номер телефона</label>
+                        <input type="number" aria-labelledby="tel" required class="popup__input form-control" id="phone">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" aria-labelledby="checkbox" class="popup__checkbox form-check-input" id="description">
+                        <label class="form-check-label" for="description">Я хочу получать информацию о новостях и
+                            акциях компании</label>
+                    </div>
+                    <button type="submit" class="popup__button btn btn-primary">Отправить форму</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="img-modal modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="img-modal__content modal-content">
+            <button type="button" class="img-modal__close btn-close" data-bs-dismiss="modal"
+                    aria-label="Закрыть"></button>
+            <div class="modal-body">
+                <picture type="img/jpg">
+                    <img src="" class="img-modal__image js_img_target" alt="" title="">
+                </picture>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="callback modal fade" id="callback" tabindex="-1" aria-labelledby="callback" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="callback__content modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title fs-5 title popup__title" id="callbackForm">Мы вам перезвоним</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="tel" class="form-label">Номер телефона</label>
+                        <input type="number" required class="popup__input form-control" id="tel">
+                    </div>
+                    <button type="submit" class="popup__button btn btn-primary">Жду звонка!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mobile-menu modal fade" id="mobileMenu" tabindex="-1" aria-labelledby="mobileMenu" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="mobile-menu__content modal-body">
+                <button type="button" class="mobile-menu__close btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                <div class="mobile-menu__body"></div>
+                <a href="" class="mobile-menu__link">Текст текст</a>
+                <a href="" class="mobile-menu__link">Текст текст текст</a>
+                <a href="" class="mobile-menu__link">Текст текст</a>
+                <a href="" class="mobile-menu__link">Текст текст</a>
+                <a href="" class="mobile-menu__link">Текст текст</a>
+                <a href="" class="mobile-menu__link">Текст и текст</a>
+                <div class="mobile-menu__search">
+                    <label for="searchMobile" class="visually-hidden">Поиск</label>
+                    <input type="text" class="mobile-menu__input" id="searchMobile" aria-labelledby="search">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

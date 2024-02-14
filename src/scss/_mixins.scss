@@ -1,0 +1,40 @@
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexAlign() {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexColumn() {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flexJustify() {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin pseudo() {
+    content: '';
+    position: absolute;
+}
+
+@mixin noRepeatCenter() {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@mixin text16() {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+@mixin text18() {
+    font-size: 18px;
+    line-height: 30px;
+}
